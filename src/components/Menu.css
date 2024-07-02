@@ -1,0 +1,37 @@
+.menu-container {
+    position: fixed; /* Para que el botón esté fijo en la esquina incluso al desplazarse */
+    top: 10px;
+    left: 10px;
+    z-index: 1000; /* Asegurarse de que esté por encima de otros elementos */
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #fff;
+    width: 200px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999; /* Asegurarse de que el menú esté por encima de otros elementos */
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu ul li {
+    padding: 10px;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+  }
+  
